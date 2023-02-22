@@ -16,3 +16,9 @@ yarn dev
 ### chrome に読み込む
 
 chrome://extensions にアクセスし、dist ディレクトリを読み込む
+
+### material ui 使うなら以下を実行
+
+```bash
+yarn add @mantine/core @mantine/hooks @emotion/react
+```
