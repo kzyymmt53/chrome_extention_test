@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { ActionIcon, Image, Tooltip } from '@mantine/core';
 
-import { Content } from './Content';
+import Content from './Content';
 
 const Icon = ({ selectedText, orect }: { selectedText: string; orect: DOMRect }) => {
   const handleClick = async () => {

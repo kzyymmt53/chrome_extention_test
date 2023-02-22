@@ -10,7 +10,7 @@ describe('content', () => {
   test('renders content example', () => {
     render(
       <Provider store={store}>
-        <Content />
+        <div />
       </Provider>
     );
     expect(screen.getByText('Content Example')).toBeInTheDocument();

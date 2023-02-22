@@ -24,7 +24,7 @@ interface MyBucket {
 
 const bucket = getBucket<MyBucket>('my_bucket', 'sync');
 
-export const Content = ({
+const Content = ({
   translatedText,
   originalText,
   targetLang,
@@ -105,3 +105,5 @@ export const Content = ({
     <></>
   );
 };
+
+export default Content;
