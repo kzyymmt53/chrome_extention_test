@@ -49,3 +49,11 @@ console.log(value.target_lang);
 ```JavaScript
 bucket.set({ target_lang: "EN" });
 ```
+
+### yarn dev で開発サーバを起動しないで使うには
+
+```bash
+yarn build
+```
+
+ビルドして、chrome で取り込み
